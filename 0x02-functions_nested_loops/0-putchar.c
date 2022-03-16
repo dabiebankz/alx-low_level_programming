@@ -1,13 +1,20 @@
 #include <stdio.h>
 
 /**
- * main -  prints _putchar, followed by a new line.
+ * main - Entry Point
+ * desc: program that prints _putchar, followed by a new line.
+ * The program should return 0
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-	_putchar('_putchar');
+	char *fn = "_putchar";
+
+	while (*fn)
+	{
+		_putchar(*fn);
+		fn++;
+	}
 	_putchar('\n');
 
 	return (0);
