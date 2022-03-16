@@ -1,20 +1,21 @@
-#include "main.h"
-/**
- * main - Entry Point
- * desc: program that prints _putchar, followed by a new line.
- * The program should return 0
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	char *fn = "_putchar";
-
-	while (*fn)
-	{
-		_putchar(*fn);
-		fn++;
-	}
-	_putchar('\n');
-
-	return (0);
+#include <stdio.h>                                                                                                                                                 
+#include "main.h"                                                                                                                                                  
+                                                                                                                                                                   
+/**                                                                                                                                                                
+ * main -  prints _putchar, followed by a new line.                                                                                                                
+ * Return: Always 0 (Success)                                                                                                                                      
+ */                                                                                                                                                                
+int main(void)                                                                                                                                                     
+                                                                                                                                                                   
+{                                                                                                                                                                  
+        _putchar('p');                                                                                                                                             
+        _putchar('u');                                                                                                                                             
+        _putchar('t');                                                                                                                                             
+        _putchar('c');                                                                                                                                             
+        _putchar('h');                                                                                                                                             
+        _putchar('a');                                                                                                                                             
+        _putchar('r');                                                                                                                                             
+        _putchar('\n');                                                                                                                                            
+                                                                                                                                                                   
+        return (0);                                                                                                                                                
 }
